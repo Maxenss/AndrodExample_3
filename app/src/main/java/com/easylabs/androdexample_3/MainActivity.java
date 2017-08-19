@@ -9,7 +9,12 @@ import android.widget.Toast;
 
 public class MainActivity
         extends AppCompatActivity
-        implements View.OnClickListener {
+        implements View.OnClickListener{
+    // Что ещё сделать :
+    // Меню
+    // ВОзможность игры с компьютером
+    // Учет результатов
+    // Возможность ввода имён игроков
     Button bt1;
     Button bt2;
     Button bt3;
@@ -68,6 +73,8 @@ public class MainActivity
         buttonsArray[2][1] = bt8;
         buttonsArray[2][2] = bt9;
     }
+
+
 
     @Override
     public void onClick(View view) {
@@ -164,3 +171,4 @@ public class MainActivity
         startActivity(intent);
     }
 }
+
